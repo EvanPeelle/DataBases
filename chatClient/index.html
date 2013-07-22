@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat with JSON!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="content">
+      <div id="main">
+        <h1>Chat with JSON!</h1>
+        <h3 class="current-chat-room"></h3>
+        <button id="submitChangeRoom">Change Room</button>
+        <ul id="userMessages"></ul>
+        <button id="sendMsg">Send Message</button>
+        <input id="writeMsg"/>
+      </div>
+      <div id="right-side">
+        <h3>Friends</h3>
+        <ul id="friends-list">
+        </ul>
+      </div>
+  </div>
+  </body>
+  <script src="https://raw.github.com/timrwood/moment/2.0.0/min/moment.min.js"></script>
+  <script src="vendor/jquery/jquery-1.9.1.js"></script>
+  <script src="js/setup.js"></script>
+  <script src="js/chat-client.js"></script>
+</html>

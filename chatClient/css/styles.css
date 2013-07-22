@@ -1,0 +1,63 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+}
+#content{
+    width: 800px;
+    height:350px;
+    margin: 0 auto;
+
+}
+#right-side{
+    width: 150px;
+    float:right;
+}
+#friends-list {
+    min-height: 100px;
+    list-style: none;
+}
+#main {
+    width: 500px;
+    max-height: 500px;
+    text-align: left;
+    float:left;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+    background:white;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+#main ul {
+    padding-left: 20px;
+    height:300px;
+    overflow:auto;
+    background-color:#ccc;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+.friend{
+    font-weight: 900;
+}
+#writeMsg {
+    min-width: 300px;
+}
